@@ -1,14 +1,14 @@
 import mongoose from 'mongoose';
 /*
-Debemos instalar mongoose con npm i mongoose
+Debemos instalar mongoose con npm install mongoose
 El nombre de la base de datos en local y con el puerto por defecto será
-en este caso "geometria"
+en este caso "automóvil"
 Las funciones que exporto la usaré 
 en el import con el mismo nombre y con {}
 */
 export const connect = async () => {
     try {
-        await mongoose.connect('mongodb://localhost/vehiculo', {
+        await mongoose.connect('mongodb://localhost/automovil', {
             useNewUrlParser: true, useUnifiedTopology: true
         });
         console.log('Conectado a la Base de Datos');
