@@ -19,8 +19,8 @@ const main = async() => {
                 veloci = parseInt (await leerTeclado ("Introduzca la velocidad"))
                 let auto1 = new Automovil(matric,consum,veloci)
                 let existe = false
-                automoviles.forEach(Automovil => {
-                    if (auto1.Matricula == Automovil.Matricula){
+                automoviles.forEach(Autos => {
+                    if (auto1.Matricula == Autos.Matricula){
                         existe=true
                     }
                 });

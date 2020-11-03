@@ -1,8 +1,8 @@
 import mongoose from 'mongoose';
 /*
-Debemos instalar mongoose con npm i mongoose
+Debemos instalar mongoose con npm install mongoose
 El nombre de la base de datos en local y con el puerto por defecto será
-en este caso "geometria"
+en este caso "automovil"
 Las funciones que exporto la usaré 
 en el import con el mismo nombre y con {}
 */
